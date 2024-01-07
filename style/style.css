@@ -1,43 +1,60 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    display: flex;
+nav {
+  display: flex;
 
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px ;
 }
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-    margin: 10px 10px;
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  margin: 10px 10px;
 }
-ul{
-    display: flex;
+ul {
+  display: flex;
 }
 
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-ul li{
-    list-style: none;
-    margin-right: 50px;
+ul li {
+  list-style: none;
+  margin-right: 50px;
 }
 ul a {
-    text-decoration: none;
-    color: #181818;
+  text-decoration: none;
+  color: #181818;
 }
-.btn-primary{
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    color: #FFFFFF;
-    padding: 10px;
-    font-weight: 700;
-    font-size: 20px;
-    cursor: pointer;
+.btn-primary {
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 64px;
+  border: none;
 }
-.btn-primary:hover{
-    background-color: #484848;
+.btn-primary:hover {
+  background-color: #484848;
+}
+/* header relative style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 584px;
+height: 676px;
 }
